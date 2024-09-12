@@ -39,6 +39,9 @@ const Mission6 = (num) => {
   return Mission6(num - 1) + Mission6(num - 2);
 };
 
-// model.exports = {
-
-// }
+model.exports = {
+Mission1,
+Mission4,
+Mission5,
+Mission6
+}
